@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body{
+    background-color: linear-gradient(rgba(102, 102, 102, 0.237), rgba(102, 102, 102,0.537));
+}
+
+.nav-bar{
+    padding-left: 150px;
+    height: 90px;
+    width: 100%;
+    display: inline-flex;
+    border-bottom: 2px solid rgb(218, 220, 222);
+    position: sticky;
+    top: 0; 
+    z-index: 90;
+    background-color: white;
+}
+
+.nav-logo{
+    height: 80px;
+    padding-top: 5px;
+    padding-right: 300px;
+}
+
+.nav-list{}
+
+.nav-lists{
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav-item{
+    align-content: center;
+    height: 80px;
+}
+
+.toggle-items{
+    color: rgb(0, 32,138);
+    font-size: 16px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.toggle-items:hover{
+    color: rgb(96,110,179);
+}
+
+.dropdown-menu{
+    width: 250px;
+}
+
+.dropdown-item{
+    margin: 10px 10px;    
+    border-top: 2px solid rgb(0, 32,138);
+}
+
+.nav-link{
+    color: rgb(0, 32,138);
+    font-size: 16px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.menu{}
+
+.select{}
+
+.select-menu{}
+
+.imgdiv img{
+    width: 100%;
+    height: 400px;
+    filter: ;
+}
+
+.faqdiv{
+    text-align: right;
+    transform: translateY(-250px);
+}
+
+.faqdiv h1{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    color: white;
+    padding-right: 150px;
+    padding-left: 300px;
+}
+
+.faqdiv p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    color: white;
+    padding-right: 150px;
+}
+
+.accordion{
+    margin-top: -70px;
+    padding: 0px 150px 0px 150px;
+    font-stretch: 100%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.accordion-item{
+    gap: 20px;
+    height: 70px;
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    list-style: none;
+    background-color: rgb(244, 244, 244);
+    border: 1px solid rgb(102, 102, 102);
+    align-content: center;
+}
+
+.accordion-header{}
+
+.accordion-button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 15px;
+    color: rgb(102, 102, 102);
+    background-color: rgb(244, 244, 244);
+}
+
+.accordion-collapse{
+    color: rgb(102, 102, 102);
+    background-color: white;
+    font-size: 16px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.accordion-body{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(102, 102, 102);
+}
+
+.accordion-body a{
+    color: rgb(46, 163, 242);
+}
+
+
+
+
+
+
+
+
+
+#wac {
+  display: inline-flex; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; 
+  left: 40px; 
+  z-index: 99;
+}
+
+#pix{
+    height: ;
+}
+
+#txt{
+    background-color: rgb(250,250,250); 
+  color: black;
+  cursor: pointer; 
+  padding: 5px;
+  font-size: 12px;
+  height: 30px;
+  margin-top: 10px;
+}
+
+.footer1{
+    gap: 75px;
+    padding: 75px 0 75px 150px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#short{
+    padding-right: 150px;
+}
+
+.divs1{
+    width: 150px;
+}
+
+.divs1 h3{
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    color: rgb(0, 32, 138);
+}
+
+.divs1 p{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    color: rgb(51,51,51);
+}
+
+.divs-img{}
+
+.footer1 .map{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(46, 163, 242);
+}
+
+.divs2{
+    width: 150px;
+}
+
+.divs2 h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(51,51,51);
+}
+
+.divs2 p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(102, 102, 102);
+}
+
+.divs2 .number{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(102, 102, 102);
+}
+
+.divs3{
+    width: 150px;
+}
+
+.divs3a{}
+
+.divs3a h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(51,51,51);
+}
+
+.divs3a p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: rgb(102, 102, 102);
+}
+
+.divs3a .number{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: rgb(102, 102, 102);
+}
+
+.footer2{
+    color: #fff;
+    height: 60px;
+    background-color: rgb(5, 0, 68);
+}
+
+.footer2 p{
+    padding: 33px 0 0 150px;
+}
+
+.footer3{
+    display: inline-flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    padding-left: 150px;
+    background-color: rgb(32, 33, 36);
+}
+
+.footer3 a{
+    text-decoration: none;
+    color: rgb(206,45,45);
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer3 a:hover{
+    color: white;
+}

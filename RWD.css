@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rwd{
+    /* padding: 200px;
+    width: 200px;
+    background-color: tomato; */
+}
+
+@media (min-width:0px) and (max-width:480px) {
+    .rwd{
+        /* background-color: green;
+        width: 100px;
+        padding: 50px; */
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    .rwd{
+        /* background-color: blue;
+        width: 150px;
+        padding: 100px; */
+    } 
+}
+
+@media (min-width:769px) and (max-width:1279px) {
+    .rwd{
+        /* background-color: yellow;
+        width: 200px;
+        padding: 150px; */
+    }   
+}
